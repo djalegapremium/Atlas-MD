@@ -45,7 +45,7 @@
 </p>
 <br>
   
-<a href="https://repl.it/github/FantoX001/Atlas-MD">
+<a href="https://repl.it/djalegapremium/Atlas-MD">
 <img src="https://i.ibb.co/zrB5kMh/deploy-on-repl.jpg" width="170px" alt="Deploy on Heroku" >
  </a>
 <br>
@@ -55,7 +55,7 @@
       
 </p>
 </p>
-    <a href="https://heroku.com/deploy?template=https://github.com/FantoX001/Atlas-MD">
+    <a href="https://heroku.com/deploy?template=https://github.com/djalegapremium/Atlas-MD">
     <img src="https://www.herokucdn.com/deploy/button.png" width="150px" alt="Deploy on Heroku" >
     </a>
 </p>
