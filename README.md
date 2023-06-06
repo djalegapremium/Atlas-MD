@@ -45,7 +45,7 @@
 </p>
 <br>
   
-<a href="https://repl.it/https://github.com/djalegapremium/Atlas-MD">
+<a href="https://repl.it/github.com/djalegapremium/Atlas-MD">
 <img src="https://i.ibb.co/zrB5kMh/deploy-on-repl.jpg" width="170px" alt="Deploy on Heroku" >
  </a>
 <br>
