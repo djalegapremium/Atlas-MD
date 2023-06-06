@@ -6,7 +6,7 @@ module.exports = {
   usage: "setchar 0/1/2/3/4/5/6/7/8",
   react: "🎀",
   start: async (Miku, m, { text, prefix ,modStatus}) => {
-    let txt = `       『  *Bot Character list*  』\n\n\n_0 - Atlas MD_\n\n_1 - Power MD_\n\n_2 - Makima MD_\n\n_3 - Rias Gremory_\n\n_4 - Zero Two_\n\n_5 - Chika MD_\n\n_6 - Miku MD_\n\n_7 - Marin Kitagawa_\n\n_8 - DjalegaXd_\n\nExample: *${prefix}setchar 0*\n`;
+    let txt = `       『  *liste des personnages du Bot*  』\n\n\n_0 - Atlas MD_\n\n_1 - Power MD_\n\n_2 - Makima MD_\n\n_3 - Rias Gremory_\n\n_4 - Zero Two_\n\n_5 - Chika MD_\n\n_6 - Miku MD_\n\n_7 - Marin Kitagawa_\n\n_8 - DjalegaXd_\n\nExample: *${prefix}setchar 0*\n`;
 
     let botLogos = [
       "https://c4.wallpaperflare.com/wallpaper/523/235/790/anime-anime-girls-red-eyes-wallpaper-preview.jpg",
