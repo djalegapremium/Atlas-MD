@@ -24,7 +24,7 @@ module.exports = {
    
     let sections = [] 
     let chars = [`Atlas MD`, `Power MD`, `Makima MD`, `Rias Gremory`, `Zero Two`, `Chika MD`, `Miku MD`, `Marin Kitagawa`,`DjalegaXd`]
-    let buttonDesc =[`Set bot character to Atlas MD`, `Set bot character to Power MD`, `Set bot character to Makima MD`, `Set bot character to Rias Gremory`, `Set bot character to Zero Two`, `Set bot character to Chika MD`, `Set bot character to Miku MD`, `Set bot character to Marin Kitagawa`]
+    let buttonDesc =[`Set bot character to Atlas MD`, `Set bot character to Power MD`, `Set bot character to Makima MD`, `Set bot character to Rias Gremory`, `Set bot character to Zero Two`, `Set bot character to Chika MD`, `Set bot character to Miku MD`, `Set bot character to Marin Kitagawa`,`choisir le personnage DjalegaXd`]
     let buttonTexts = ['-setchar 0', '-setchar 1', '-setchar 2', '-setchar 3', '-setchar 4', '-setchar 5', '-setchar 6', '-setchar 7','-setchar 8']
     
     for (let i = 0; i < chars.length; i++) {
