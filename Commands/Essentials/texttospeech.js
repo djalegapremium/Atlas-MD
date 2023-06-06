@@ -20,7 +20,7 @@ module.exports = {
             message = `Please provide me a text to say ${pushName} senpai !`;
           }
 
-        const texttospeechurl = ttt.getAudioUrl(message, {lang: "en", slow: false, host: "https://translate.google.com",});
+        const texttospeechurl = ttt.getAudioUrl(message, {lang: "fr", slow: false, host: "https://translate.google.com",});
         
             Miku.sendMessage(m.from, { audio: {url: texttospeechurl} ,mimetype: 'audio/mpeg' }, { quoted: m }).catch(e => {
                 m.reply(`An error Occurd !`);
