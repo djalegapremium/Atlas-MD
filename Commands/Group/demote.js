@@ -14,11 +14,36 @@ module.exports = {
     { text, prefix, isBotAdmin, isAdmin, mentionByTag,pushName,groupAdmin}
   ) =>{
     if (!isAdmin) {
-      return Miku.sendMessage(
-        m.from,
-        { text: `${mess.useradmin}` },
-        { quoted: m }
+     // return Miku.sendMessage(
+      //  m.from,
+        //{ text: `${mess.useradmin}` },
+       // { quoted: m }
+     // );
+      //
+      try {
+      await Miku.groupParticipantsUpdate(m.from, [userId], "demote").then(
+        (res) =>
+          Miku.sendMessage(
+            m.from,
+            {
+              text: `Sorry @${
+                mentionedUser.split("@")[0]
+              } Senpai, vous avez été *Demi* par un *Admin* !`,
+              mentions: [mentionedUser],
+            },
+            { quoted: m }
+          )
       );
+    } catch (error) {
+       Miku.sendMessage(
+        m.from,
+        { text: `${mess.botadmin}` },
+        { quoted: m }
+      ); 
+    }
+  
+      
+      //
     }
   //
     if (!text && !m.quoted) {
@@ -52,7 +77,7 @@ module.exports = {
             {
               text: `Sorry @${
                 mentionedUser.split("@")[0]
-              } Senpai, you have been *Demoted* by an *Admin* !`,
+              } Senpai, vous avez été *Demi* par un *Admin* !`,
               mentions: [mentionedUser],
             },
             { quoted: m }
