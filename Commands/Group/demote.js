@@ -49,7 +49,7 @@ module.exports = {
     if (!text && !m.quoted) {
       return Miku.sendMessage(
         m.from,
-        { text: `Please tag a user to *Demote*!` },
+        { text: `Please taguez un  user pour le *Demettre*! by Fedora` },
         { quoted: m }
       );
     } else if (m.quoted) {
@@ -64,7 +64,7 @@ module.exports = {
         m.from,
         { text: `@${
           mentionedUser.split("@")[0]
-        } Senpai is not an *Admin* !`,mentions: [mentionedUser], },
+        } Senpai n est  pas un *Admin* !`,mentions: [mentionedUser], },
         { quoted: m }
       );
     }
