@@ -135,8 +135,8 @@ async function startMiku() {
         whitespaceBreak: true
     }), 'yellow'))
 
-    console.log(color('\nHello, I am RedzeoX, the main developer of this bot.\n\nThanks for using: Atlas MD made by my Team Atlas.', 'aqua'))
-    console.log(color('\nYou can follow me on GitHub: REDZEOX\n\n', 'aqua'))
+    console.log(color('\nHello, I am Djalega++, the main developer of this bot.\n\nThanks for using: Atlas MD made by my Team Djalega.', 'aqua'))
+    console.log(color('\nYou can follow me on GitHub: djalegapremium\n\n', 'aqua'))
 
 
 
@@ -150,7 +150,7 @@ async function startMiku() {
             level: 'silent'
         }),
         printQRInTerminal: true,
-        browser: ['Atlas MD', 'Safari', '1.0.0'],
+        browser: ['DjalegaBot', 'Safari', '1.0.0'],
         auth: state,
         version
     })
