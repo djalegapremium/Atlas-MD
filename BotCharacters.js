@@ -12,6 +12,7 @@ const { mkchar } = require("./Database/dataschema.js");
 5 --- Chika
 6 --- Miku
 7 --- Marin Kitagawa
+8 --- DjalegaXd
 
 Image Source: https://wall.alphacoders.com/
 Image Source: https://wallpapercave.com/
