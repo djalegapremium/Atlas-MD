@@ -107,5 +107,15 @@ global.charID7 = {
   botImage5 : "https://images7.alphacoders.com/121/1211490.jpg",
   botImage6 : "https://images3.alphacoders.com/122/1223868.png",
 }
+global.charID8={
+botName : "DjalegaXd",
+botVideo : fs.readFileSync("./Assets/djalega1.mp4"),
+botImage1 :"https://wallpapercave.com/uwp/uwp3772906.jpeg",
+botImage2 :"https://wallpapercave.com/uwp/uwp3773183.jpeg",
+botImage3 : "https://wallpapercave.com/uwp/uwp3773175.png",
+botImage4 : "https://wallpapercave.com/uwp/uwp3783063.jpeg",
+botImage5 : "https://wallpapercave.com/uwp/uwp3783066.jpeg",
+botImage6 :"https://wallpapercave.com/uwp/uwp3783067.jpeg",
+}
 
 
