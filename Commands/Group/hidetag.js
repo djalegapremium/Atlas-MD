@@ -16,10 +16,10 @@ module.exports = {
     if (!isAdmin)
       return Miku.sendMessage(m.from, { text: mess.useradmin }, { quoted: m });
 
-      var message = "*『 Attention Here 』*";
+      var message = "*『 À votre attention svp : 』*";
 
     if(m.quoted){
-        message = "*『 Attention Here 』*";
+        message = "*『 À votre Attention svp 』*";
       }
     else if (!text && m.quoted) {
       message = `${m.quoted ? m.quoted.msg : ''}`;
@@ -28,11 +28,11 @@ module.exports = {
       message = args.join(' ');
     }
     else if(text ===''){
-      message = "*『 Attention Here 』*";
+      message = "*『 À votre Attention svp 』*";
     }
    
     else{
-      message = "*『 Attention Here 』*";
+      message = "*『 À votre Attention svp 』*";
     }
     await Miku.sendMessage(
       m.from,
