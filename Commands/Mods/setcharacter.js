@@ -11,7 +11,7 @@ module.exports = {
     alias: ["setchar","setbotcharater","changechar","changecharacter","botchar","botcharacter"], 
     desc: "Ban a member", 
     category: "core", 
-    usage: "setchar 0/1/2/3/4/5/6/7", 
+    usage: "setchar 0/1/2/3/4/5/6/7/8", 
     react: "🎀", 
     start: async ( 
       Miku, 
@@ -26,7 +26,7 @@ module.exports = {
 
       await mkchar.create({id:'1', seletedCharacter: "0"});
 
-      let botNames = ['Atlas MD', 'Power MD', 'Makima MD', 'Rias Gremory', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin Kitagawa']
+      let botNames = ['Atlas MD', 'Power MD', 'Makima MD', 'Rias Gremory', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin Kitagawa','Djalegaxd']
       let botLogos =[
         'https://c4.wallpaperflare.com/wallpaper/523/235/790/anime-anime-girls-red-eyes-wallpaper-preview.jpg',
         'https://wallpapercave.com/wp/wp11253614.jpg',
@@ -35,7 +35,8 @@ module.exports = {
         'https://images3.alphacoders.com/949/949253.jpg',
         'https://images4.alphacoders.com/100/1002134.png',
         'https://wallpapercave.com/cdn-cgi/mirage/4060d9c58e8c34505929baac680386a213cfd243a199f1ff8f223c312de6c835/1280/https://wallpapercave.com/wp/wp10524620.jpg',
-        'https://wallpapercave.com/cdn-cgi/mirage/4060d9c58e8c34505929baac680386a213cfd243a199f1ff8f223c312de6c835/1280/https://wallpapercave.com/uwp/uwp1895868.png'
+        'https://wallpapercave.com/cdn-cgi/mirage/4060d9c58e8c34505929baac680386a213cfd243a199f1ff8f223c312de6c835/1280/https://wallpapercave.com/uwp/uwp1895868.png',
+          'https://wallpapercave.com/uwp/uwp3783901.jpeg'
       ]
 
       await mkchar.findOne({id:'1'}).then(async (charInfo) => {
