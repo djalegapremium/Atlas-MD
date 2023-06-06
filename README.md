@@ -1,4 +1,4 @@
-<h1 align="center"> 〘 ᴀᴛʟᴀꜱ-ᴍᴅ 〙
+<h1 align="center"> 〘 Djalega++ 〙
 
 </h1>
 
@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/REDZEOX/Atlas-MD/fork">
+  <a href="https://github.com/djalegapremium/fork">
     <img src="https://img.shields.io/github/forks/REDZEOX/Atlas-MD?label=Fork&style=social">
         
   <a href="https://github.com/REDZEOX/Atlas-MD/stargazers">
