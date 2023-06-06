@@ -6,7 +6,7 @@ const { mk } = require("../../Database/dataschema.js");
 
 
 module.exports = {
-    name: "nsfw",
+    name: "porno",
     alias: ["nsfwswitch","nsfwmode"],
     desc: "Enable or disable NSFW commands in a group",
     category: "Group",
