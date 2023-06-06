@@ -48,7 +48,7 @@ module.exports = {
             } 
             
             if(modlistString != "" || ownerList.length != 0){
-               textM += `\n\n📛 *ᴅᴏɴ'ᴛ ꜱᴘᴀᴍ ᴛʜᴇᴍ ᴛᴏ ᴀᴠᴏɪᴅ ʙʟᴏᴄᴋɪɴɢ !*\n\n🎀 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ, ᴛʏᴘᴇ *${prefix}ꜱᴜᴘᴘᴏʀᴛ* ᴀɴᴅ ᴀꜱᴋ ɪɴ ɢʀᴏᴜᴘ.\n\n*💫 ᴛʜᴀɴᴋꜱ ғᴏʀ ᴜꜱɪɴɢ ${botName}. 💫*\n`
+               textM += `\n\n📛 *ɴe ꜱᴘᴀᴍmer pas svp pour eviter les bannissements !*\n\n🎀 pour toute aide !, ᴛʏᴘᴇ *${prefix}ꜱᴜᴘᴘᴏʀᴛ* ᴀɴᴅ ᴀꜱᴋ ɪɴ ɢʀᴏᴜᴘ.\n\n*💫 Merci d'ᴜtiliser ${botName}. 💫*\n`
             }
             
             return Miku.sendMessage( 
