@@ -17,6 +17,7 @@ module.exports = {
       "https://images4.alphacoders.com/100/1002134.png",
       "https://wallpapercave.com/cdn-cgi/mirage/4060d9c58e8c34505929baac680386a213cfd243a199f1ff8f223c312de6c835/1280/https://wallpapercave.com/wp/wp10524620.jpg",
       "https://wallpapercave.com/cdn-cgi/mirage/4060d9c58e8c34505929baac680386a213cfd243a199f1ff8f223c312de6c835/1280/https://wallpapercave.com/wp/wp10472416.png",
+      "https://wallpapercave.com/uwp/uwp3783901.jpeg",
     ];
 
     let randomimage = botLogos[Math.floor(Math.random() * botLogos.length)];
