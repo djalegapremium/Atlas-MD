@@ -3,7 +3,7 @@ module.exports = {
   alias: ["del"],
   desc: "To delete a message",
   category: "Group",
-  usage: `Tag a message and type *del*`,
+  usage: `Taguez un message et tapez *del*`,
   react: "🍁",
   start: async (Miku, m, { isAdmin, isBotAdmin, pushName }) => {
     if (!m.quoted)
@@ -16,7 +16,7 @@ module.exports = {
       return Miku.sendMessage(
         m.from,
         {
-          text: `Bot and *${pushName}* both must be admin in order to use this command !`,
+          text: `Bot and *${pushName}* doivent être admin pour utliser cette commande !`,
         },
         { quoted: m }
       );
