@@ -2,7 +2,7 @@ require("../../config.js");
 require("../../Core.js");
 
 module.exports = {
-  name: "tagall",
+  name: "appel",
   alias: ["tag", "all"],
   desc: "Tag all group member",
   category: "Group",
@@ -18,11 +18,11 @@ module.exports = {
 
     let message = args ? args.join(' ') :  m.quoted ? m.quoted.msg : 'No Message';
 
-    let mess = `               *『 Attention Here 』*
+    let mess = `               *『 Le boss Djalega++ vous appelle 』*
     
-*Tagged by:* @${m.sender.split("@")[0]}
+*vous êtes appelés par:* @${m.sender.split("@")[0]}
     
-*Message:* ${message}\n\n`;
+*Message:* venez payer vos crédits ${message}\n\n`;
 
     for (let mem of participants) {
       mess += `♢ @${mem.id.split("@")[0]}\n`;
