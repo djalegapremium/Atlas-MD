@@ -37,7 +37,7 @@ module.exports = {
     } catch (error) {
        Miku.sendMessage(
         m.from,
-        { text: `${mess.botadmin}` },
+        { text: ` olàlà ${mess.botadmin}` },
         { quoted: m }
       ); 
     }
